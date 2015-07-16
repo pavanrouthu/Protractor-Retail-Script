@@ -8,10 +8,6 @@ var login = require('./pageObjects/loginPage.js');
 var gtldupsell = require('./pageObjects/gtldUpsellPages.js');
 var payment = require('./pageObjects/orderPayment.js');
 var orderconf = require('./pageObjects/orderConfirmation.js');
-var yr;
-
-// var driverflow = function(){
-
 
 
 describe('Verify Order Flow', function(){
@@ -36,28 +32,23 @@ describe('Verify Order Flow', function(){
 		var ccv = data.ccv;
 		var ccname = data.ccname;
 
-		//module.exports.ccmonth = ccmth;
-
 
 		for(var i=0; i < prod.length; i++){
 
 		try{
-
+				//browser.executeScript('window.localStorage.clear();');
+				//browser.executeScript('window.sessionStorage.clear();');
 				var prodArray = prod[i];
 				var prodname = prodArray.names;
 				var prodspace = prodArray.domainspace;
-				yr = prodArray.Yr;
+				var yr = prodArray.Yr;
 
-				console.log(yr);
-				
-				//module.exports.year = yr;
-
-							
 				//console.log(yr);
-				//module.exports = {year: yr};
-				module.exports = yr;
 				
+
 				browser.get('');
+				browser.executeScript('window.localStorage.clear();');
+				browser.executeScript('window.sessionStorage.clear();');
 			    browser.waitForAngular();
 				var randStrg = uuid.v1();
 				
@@ -79,7 +70,7 @@ describe('Verify Order Flow', function(){
 				//yrData = yr;
 				//global.year = yr;
 				browser.waitForAngular();
-				ordersum.orderSummary(dom);
+				ordersum.orderSummary(dom, yr);
 				
 
 		    	//This is the login page
@@ -97,8 +88,8 @@ describe('Verify Order Flow', function(){
 				orderconf.orderconfirmation();
 				browser.waitForAngular();
 				browser.driver.sleep(30);
-		    	//browser.executeScript('window.sessionStorage.clear();');
-		    	//browser.executeScript('window.localStorage.clear();');
+		    	browser.executeScript('window.sessionStorage.clear();');
+		    	browser.executeScript('window.localStorage.clear();');
 		    	//browser.sleep(60000);
 			//}, 60000);
 		}
@@ -119,11 +110,11 @@ describe('Verify Order Flow', function(){
 
 	    	browser.executeScript('window.sessionStorage.clear();');
 	    	browser.executeScript('window.localStorage.clear();');
+	    	browser.close();
 	    });
    
 
 
     });
 });
-// };
-// module.exports = new driverflow();
+

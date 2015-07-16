@@ -8,6 +8,7 @@
 "ccv":"123",
 "ccname":"testCC",
  "products":[
-    {"names":"null", "domainspace":".com", "Yr":"2 Years"}
+    {"names":"null", "domainspace":".com", "Yr":"2 Years"},
+    {"names":"null", "domainspace":".net", "Yr":"5 Years"}
 ]
 }

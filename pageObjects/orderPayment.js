@@ -21,7 +21,7 @@ var utils = require('../utility/util.js');
 		    	ccyear.click();
 		    	creditrcardname.sendKeys(ccname);
 		    	paymentbutton.click();
-		    	browser.driver.sleep(30);
+		    	browser.driver.sleep(120);
 		    	browser.waitForAngular();
 
 		    		

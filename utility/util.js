@@ -16,11 +16,11 @@
 // }
 // };
 
-var dropdownPrice = require('../spec.js');
+//var dropdownPrice = require('../spec.js');
 var dropdownData = require('../testData/testdata.json');
 
-var priceyr = dropdownPrice.yr;
-console.log(dropdownPrice.yr);
+//var priceyr = dropdownPrice.yr;
+//console.log(dropdownPrice.yr);
 //console.log(yr);
 
 var utildata = function(){
@@ -39,9 +39,9 @@ var utildata = function(){
 		},
 		"ordersummary":{
 			"item": element(By.css('.cs-group.cart-box.ng-scope h2')).getText(),
-			//"price": $('select[ng-model="item.key"]'),
+			"price": $('select[ng-model="item.key"]'),
 			//"price": $('select[ng-model="item.key"]').element(By.cssContainingText('option', dropdownPrice.year)),
-			"price": element(by.cssContainingText('option', '2 Years')),
+			//"price": element(by.cssContainingText('option', '2 Years')),
 			"summarybtn": $('.pg-body.ng-scope a.btn.red')
 		},		
 
@@ -91,8 +91,9 @@ var utildata = function(){
 		// setElementValue: function(page, element, value){
 		// 	var self = this;
 		// 	console.log("within setvalue= " + value);
-		// 	self[page][elementname].val(value);
-		// 	console.log(self[page][elementname].val(value));
+		// 	self.page.elementname.val(value);
+		// 	//self[page][elementname].val(value);
+		// 	//console.log(self[page][elementname].val(value));
 		// }
 		//
 		// getYears: function(a, b){
