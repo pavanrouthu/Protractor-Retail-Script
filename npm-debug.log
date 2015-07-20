@@ -1,0 +1,159 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'jasmine-reporters' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'jasmine-reporters', null ]
+5 verbose cache add name=undefined spec="jasmine-reporters" args=["jasmine-reporters",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jasmine-reporters',
+6 verbose parsed url   path: 'jasmine-reporters',
+6 verbose parsed url   href: 'jasmine-reporters' }
+7 silly lockFile 21bbf4e8-jasmine-reporters jasmine-reporters
+8 verbose lock jasmine-reporters /Users/pavan/.npm/21bbf4e8-jasmine-reporters.lock
+9 silly lockFile 21bbf4e8-jasmine-reporters jasmine-reporters
+10 silly lockFile 21bbf4e8-jasmine-reporters jasmine-reporters
+11 verbose addNamed [ 'jasmine-reporters', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f614a64d-jasmine-reporters jasmine-reporters@
+14 verbose lock jasmine-reporters@ /Users/pavan/.npm/f614a64d-jasmine-reporters.lock
+15 silly addNameRange { name: 'jasmine-reporters', range: '*', hasData: false }
+16 verbose request where is /jasmine-reporters
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 2ac42176faccafc3
+19 verbose url raw /jasmine-reporters
+20 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-reporters' ]
+21 verbose url resolved https://registry.npmjs.org/jasmine-reporters
+22 verbose request where is https://registry.npmjs.org/jasmine-reporters
+23 info trying registry request attempt 1 at 12:27:49
+24 http GET https://registry.npmjs.org/jasmine-reporters
+25 http 200 https://registry.npmjs.org/jasmine-reporters
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"CB6W1M5AMNDJ6OSWJUFFPKRLT"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '24615',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Mon, 20 Jul 2015 02:26:39 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-mel6523-MEL',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1437359199.332982,VS0,VE245',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'jasmine-reporters', range: '*', hasData: true }
+28 silly addNameRange versions [ 'jasmine-reporters',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.0.2',
+28 silly addNameRange     '2.0.3',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '2.0.4',
+28 silly addNameRange     '2.0.5',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '2.0.6',
+28 silly addNameRange     '2.0.7' ] ]
+29 verbose addNamed [ 'jasmine-reporters', '2.0.7' ]
+30 verbose addNamed [ '2.0.7', '2.0.7' ]
+31 silly lockFile 3e268b09-jasmine-reporters-2-0-7 jasmine-reporters@2.0.7
+32 verbose lock jasmine-reporters@2.0.7 /Users/pavan/.npm/3e268b09-jasmine-reporters-2-0-7.lock
+33 silly lockFile 0a649c0a-ters-jasmine-reporters-2-0-7-tgz https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz
+34 verbose lock https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz /Users/pavan/.npm/0a649c0a-ters-jasmine-reporters-2-0-7-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz',
+35 verbose addRemoteTarball   '3395f90302dc21ecab2058b78297faf0744f4ef7' ]
+36 info retry fetch attempt 1 at 12:27:50
+37 verbose fetch to= /var/folders/3c/w6ksjrvs28xfbc4ft45tltpr0000gp/T/npm-15010-SC9rAtg6/registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz
+38 http GET https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz
+39 http 200 https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz
+40 silly lockFile 0a649c0a-ters-jasmine-reporters-2-0-7-tgz https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz
+41 silly lockFile 0a649c0a-ters-jasmine-reporters-2-0-7-tgz https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz
+42 silly lockFile 3e268b09-jasmine-reporters-2-0-7 jasmine-reporters@2.0.7
+43 silly lockFile 3e268b09-jasmine-reporters-2-0-7 jasmine-reporters@2.0.7
+44 silly lockFile f614a64d-jasmine-reporters jasmine-reporters@
+45 silly lockFile f614a64d-jasmine-reporters jasmine-reporters@
+46 silly resolved [ { author: { name: 'Larry Myers' },
+46 silly resolved     name: 'jasmine-reporters',
+46 silly resolved     description: 'Reporters for the Jasmine BDD Framework',
+46 silly resolved     version: '2.0.7',
+46 silly resolved     homepage: 'https://github.com/larrymyers/jasmine-reporters',
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/larrymyers/jasmine-reporters.git' },
+46 silly resolved     dependencies: { mkdirp: '~0.3.5' },
+46 silly resolved     devDependencies: {},
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     gitHead: '209456b1a239f844f02acc368affca6ea5389fc0',
+46 silly resolved     bugs: { url: 'https://github.com/larrymyers/jasmine-reporters/issues' },
+46 silly resolved     _id: 'jasmine-reporters@2.0.7',
+46 silly resolved     scripts: {},
+46 silly resolved     _shasum: '3395f90302dc21ecab2058b78297faf0744f4ef7',
+46 silly resolved     _from: 'jasmine-reporters@',
+46 silly resolved     _npmVersion: '2.10.1',
+46 silly resolved     _nodeVersion: '0.12.4',
+46 silly resolved     _npmUser: { name: 'bloveridge', email: 'bloveridge@gmail.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: '3395f90302dc21ecab2058b78297faf0744f4ef7',
+46 silly resolved        tarball: 'http://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/jasmine-reporters/-/jasmine-reporters-2.0.7.tgz' } ]
+47 info install jasmine-reporters@2.0.7 into /usr/local/lib
+48 info installOne jasmine-reporters@2.0.7
+49 verbose lib/node_modules/jasmine-reporters unbuild
+50 verbose tar unpack /Users/pavan/.npm/jasmine-reporters/2.0.7/package.tgz
+51 silly lockFile c800aac4-b-node-modules-jasmine-reporters tar:///usr/local/lib/node_modules/jasmine-reporters
+52 verbose lock tar:///usr/local/lib/node_modules/jasmine-reporters /Users/pavan/.npm/c800aac4-b-node-modules-jasmine-reporters.lock
+53 silly lockFile 76aa372d-mine-reporters-2-0-7-package-tgz tar:///Users/pavan/.npm/jasmine-reporters/2.0.7/package.tgz
+54 verbose lock tar:///Users/pavan/.npm/jasmine-reporters/2.0.7/package.tgz /Users/pavan/.npm/76aa372d-mine-reporters-2-0-7-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine-reporters'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine-reporters']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/jasmine-reporters',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/jasmine-reporters',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.4.0
+59 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "jasmine-reporters"
+60 error cwd /Users/pavan/Documents/BAU/NewCart_Automation
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/jasmine-reporters
+64 error fstream_path /usr/local/lib/node_modules/jasmine-reporters
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/jasmine-reporters'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]

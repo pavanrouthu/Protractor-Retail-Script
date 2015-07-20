@@ -3,7 +3,6 @@ var utils = require('../utility/util.js');
 
 
 			exports.orderpayment = function(ccno, ccv, ccname){
-			   	//try{
 
 					var ccnumber = utils.getLocator('orderpayment','ccno');
 					var cvv = utils.getLocator('orderpayment', 'ccv');
@@ -23,12 +22,4 @@ var utils = require('../utility/util.js');
 		    	paymentbutton.click();
 		    	browser.driver.sleep(120);
 		    	browser.waitForAngular();
-
-		    		
-				// }
-				// catch(e) {
-				// 	continue;
-				// }
 			};
-
-//module.exports = new domsearch(dom);

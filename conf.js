@@ -4,4 +4,10 @@ exports.config = {
   baseUrl: 'https://stage.melbourneit.com.au/',
   allScriptsTimeout: 10000000,
   jasmineNodeOpts: {defaultTimeoutInterval: 50000000}
+ 
+ // onPrepare: function() {
+ //    require('jasmine-reporters');
+ //    jasmine.getEnv().addReporter(
+ //      new jasmine.JUnitXmlReporter(null, true, true, 'output'));
+ //  }
 };
